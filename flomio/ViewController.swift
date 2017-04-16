@@ -66,9 +66,9 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
         DispatchQueue.main.async {
             let thisDeviceId = deviceId
             if let thisPayload = payload["Raw Data"] {
-                self.writeLog(message: "Did find payload (raw): \(thisPayload) from Device: \(thisDeviceId)")
+                self.writeLog(message: "Did find payload (raw): \(thisPayload) from Device: \(String(describing: thisDeviceId))")
             } else if let ndef = payload["Ndef"] {
-                self.writeLog(message: "Did find payload (ndef): \(ndef) from Device: \(thisDeviceId)")
+                self.writeLog(message: "Did find payload (ndef): \(ndef) from Device: \(String(describing: thisDeviceId))")
             }
         }
     }
