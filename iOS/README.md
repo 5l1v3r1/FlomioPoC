@@ -120,7 +120,7 @@ Flomio builds hardware and software solutions in the proximity ID space. With a 
     // 1:kPresent
     // 2:kReadingData
 }
-   ```
+```
 
 9. To send APDU command, use FmSessionManager
 e.g:

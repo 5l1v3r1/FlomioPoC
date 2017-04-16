@@ -7,21 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8FA475C1EA3B65700B47A94 /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FA47281EA3B65700B47A94 /* FloJackConnected150x150.png */; };
+		F8FA475D1EA3B65700B47A94 /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FA47291EA3B65700B47A94 /* FloJackDisconnected150x150.png */; };
+		F8FA475E1EA3B65700B47A94 /* libSDKClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FA47581EA3B65700B47A94 /* libSDKClasses.a */; };
+		F8FA475F1EA3B65700B47A94 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F8FA47591EA3B65700B47A94 /* README.md */; };
+		F8FA47601EA3B65700B47A94 /* README_swift.md in Sources */ = {isa = PBXBuildFile; fileRef = F8FA475A1EA3B65700B47A94 /* README_swift.md */; };
+		F8FA47611EA3B65700B47A94 /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = F8FA475B1EA3B65700B47A94 /* ScanSound.caf */; };
 		F8FCBE3E1E8D609C00779417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCBE3D1E8D609C00779417 /* AppDelegate.swift */; };
 		F8FCBE401E8D609C00779417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FCBE3F1E8D609C00779417 /* ViewController.swift */; };
 		F8FCBE431E8D609C00779417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE411E8D609C00779417 /* Main.storyboard */; };
 		F8FCBE451E8D609C00779417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE441E8D609C00779417 /* Assets.xcassets */; };
 		F8FCBE481E8D609C00779417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE461E8D609C00779417 /* LaunchScreen.storyboard */; };
-		F8FCBE921E8D61A300779417 /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE501E8D61A300779417 /* FloJackConnected150x150.png */; };
-		F8FCBE931E8D61A300779417 /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE511E8D61A300779417 /* FloJackDisconnected150x150.png */; };
-		F8FCBE941E8D61A400779417 /* libSDKClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FCBE8E1E8D61A300779417 /* libSDKClasses.a */; };
-		F8FCBE951E8D61A400779417 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F8FCBE8F1E8D61A300779417 /* README.md */; };
-		F8FCBE961E8D61A400779417 /* README_swift.md in Sources */ = {isa = PBXBuildFile; fileRef = F8FCBE901E8D61A300779417 /* README_swift.md */; };
-		F8FCBE971E8D61A400779417 /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = F8FCBE911E8D61A300779417 /* ScanSound.caf */; };
 		F8FCBE9A1E8D624C00779417 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FCBE991E8D624C00779417 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8FA47281EA3B65700B47A94 /* FloJackConnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackConnected150x150.png; sourceTree = "<group>"; };
+		F8FA47291EA3B65700B47A94 /* FloJackDisconnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackDisconnected150x150.png; sourceTree = "<group>"; };
+		F8FA472C1EA3B65700B47A94 /* ABTAcr1255uj1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr1255uj1Reader.h; sourceTree = "<group>"; };
+		F8FA472D1EA3B65700B47A94 /* ABTAcr3901us1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr3901us1Reader.h; sourceTree = "<group>"; };
+		F8FA472E1EA3B65700B47A94 /* ABTBluetoothReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReader.h; sourceTree = "<group>"; };
+		F8FA472F1EA3B65700B47A94 /* ABTBluetoothReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReaderManager.h; sourceTree = "<group>"; };
+		F8FA47301EA3B65700B47A94 /* ABTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTError.h; sourceTree = "<group>"; };
+		F8FA47311EA3B65700B47A94 /* ACRAesTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAesTrackData.h; sourceTree = "<group>"; };
+		F8FA47321EA3B65700B47A94 /* ACRAudioJackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAudioJackReader.h; sourceTree = "<group>"; };
+		F8FA47331EA3B65700B47A94 /* ACRCRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCRC16.h; sourceTree = "<group>"; };
+		F8FA47341EA3B65700B47A94 /* ACRDukptReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptReceiver.h; sourceTree = "<group>"; };
+		F8FA47351EA3B65700B47A94 /* ACRDukptTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptTrackData.h; sourceTree = "<group>"; };
+		F8FA47361EA3B65700B47A94 /* ACRResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRResult.h; sourceTree = "<group>"; };
+		F8FA47371EA3B65700B47A94 /* ACRStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRStatus.h; sourceTree = "<group>"; };
+		F8FA47381EA3B65700B47A94 /* ACRTrack1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack1Data.h; sourceTree = "<group>"; };
+		F8FA47391EA3B65700B47A94 /* ACRTrack2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack2Data.h; sourceTree = "<group>"; };
+		F8FA473A1EA3B65700B47A94 /* ACRTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrackData.h; sourceTree = "<group>"; };
+		F8FA473B1EA3B65700B47A94 /* AcsAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsAjReader.h; sourceTree = "<group>"; };
+		F8FA473C1EA3B65700B47A94 /* AcsBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsBtReader.h; sourceTree = "<group>"; };
+		F8FA473D1EA3B65700B47A94 /* AudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJack.h; sourceTree = "<group>"; };
+		F8FA473E1EA3B65700B47A94 /* AudioJackErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJackErrors.h; sourceTree = "<group>"; };
+		F8FA473F1EA3B65700B47A94 /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
+		F8FA47401EA3B65700B47A94 /* FeitianAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianAjReader.h; sourceTree = "<group>"; };
+		F8FA47411EA3B65700B47A94 /* FeitianBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianBtReader.h; sourceTree = "<group>"; };
+		F8FA47421EA3B65700B47A94 /* FJStringDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJStringDisplay.h; sourceTree = "<group>"; };
+		F8FA47431EA3B65700B47A94 /* FmAudioJackDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackDevice.h; sourceTree = "<group>"; };
+		F8FA47441EA3B65700B47A94 /* FmAudioJackSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackSessionManager.h; sourceTree = "<group>"; };
+		F8FA47451EA3B65700B47A94 /* FmBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothDevice.h; sourceTree = "<group>"; };
+		F8FA47461EA3B65700B47A94 /* FmBluetoothSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothSessionManager.h; sourceTree = "<group>"; };
+		F8FA47471EA3B65700B47A94 /* FmCustomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmCustomTypes.h; sourceTree = "<group>"; };
+		F8FA47481EA3B65700B47A94 /* FmDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmDevice.h; sourceTree = "<group>"; };
+		F8FA47491EA3B65700B47A94 /* FmErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmErrorManager.h; sourceTree = "<group>"; };
+		F8FA474A1EA3B65700B47A94 /* FmNdefManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmNdefManager.h; sourceTree = "<group>"; };
+		F8FA474B1EA3B65700B47A94 /* FmSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmSessionManager.h; sourceTree = "<group>"; };
+		F8FA474C1EA3B65700B47A94 /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
+		F8FA474D1EA3B65700B47A94 /* FTaR530.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTaR530.h; sourceTree = "<group>"; };
+		F8FA474E1EA3B65700B47A94 /* FtBleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtBleReader.h; sourceTree = "<group>"; };
+		F8FA474F1EA3B65700B47A94 /* FTType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTType.h; sourceTree = "<group>"; };
+		F8FA47501EA3B65700B47A94 /* NdefMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefMessage.h; sourceTree = "<group>"; };
+		F8FA47511EA3B65700B47A94 /* NdefRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefRecord.h; sourceTree = "<group>"; };
+		F8FA47521EA3B65700B47A94 /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
+		F8FA47531EA3B65700B47A94 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		F8FA47541EA3B65700B47A94 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		F8FA47551EA3B65700B47A94 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		F8FA47561EA3B65700B47A94 /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
+		F8FA47571EA3B65700B47A94 /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
+		F8FA47581EA3B65700B47A94 /* libSDKClasses.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDKClasses.a; sourceTree = "<group>"; };
+		F8FA47591EA3B65700B47A94 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F8FA475A1EA3B65700B47A94 /* README_swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_swift.md; sourceTree = "<group>"; };
+		F8FA475B1EA3B65700B47A94 /* ScanSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScanSound.caf; sourceTree = "<group>"; };
 		F8FCBE3A1E8D609C00779417 /* flomio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flomio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8FCBE3D1E8D609C00779417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8FCBE3F1E8D609C00779417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,70 +79,6 @@
 		F8FCBE441E8D609C00779417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8FCBE471E8D609C00779417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8FCBE491E8D609C00779417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8FCBE501E8D61A300779417 /* FloJackConnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackConnected150x150.png; sourceTree = "<group>"; };
-		F8FCBE511E8D61A300779417 /* FloJackDisconnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackDisconnected150x150.png; sourceTree = "<group>"; };
-		F8FCBE541E8D61A300779417 /* ABDHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDHex.h; sourceTree = "<group>"; };
-		F8FCBE551E8D61A300779417 /* ABTAcr1255uj1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr1255uj1Reader.h; sourceTree = "<group>"; };
-		F8FCBE561E8D61A300779417 /* ABTAcr3901us1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr3901us1Reader.h; sourceTree = "<group>"; };
-		F8FCBE571E8D61A300779417 /* ABTBluetoothReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReader.h; sourceTree = "<group>"; };
-		F8FCBE581E8D61A300779417 /* ABTBluetoothReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReaderManager.h; sourceTree = "<group>"; };
-		F8FCBE591E8D61A300779417 /* ABTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTError.h; sourceTree = "<group>"; };
-		F8FCBE5A1E8D61A300779417 /* ACRAesTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAesTrackData.h; sourceTree = "<group>"; };
-		F8FCBE5B1E8D61A300779417 /* ACRAudioJackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAudioJackReader.h; sourceTree = "<group>"; };
-		F8FCBE5C1E8D61A300779417 /* ACRCRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCRC16.h; sourceTree = "<group>"; };
-		F8FCBE5D1E8D61A300779417 /* ACRDukptReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptReceiver.h; sourceTree = "<group>"; };
-		F8FCBE5E1E8D61A300779417 /* ACRDukptTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptTrackData.h; sourceTree = "<group>"; };
-		F8FCBE5F1E8D61A300779417 /* ACRResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRResult.h; sourceTree = "<group>"; };
-		F8FCBE601E8D61A300779417 /* ACRStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRStatus.h; sourceTree = "<group>"; };
-		F8FCBE611E8D61A300779417 /* ACRTrack1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack1Data.h; sourceTree = "<group>"; };
-		F8FCBE621E8D61A300779417 /* ACRTrack2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack2Data.h; sourceTree = "<group>"; };
-		F8FCBE631E8D61A300779417 /* ACRTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrackData.h; sourceTree = "<group>"; };
-		F8FCBE641E8D61A300779417 /* AcsAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsAjReader.h; sourceTree = "<group>"; };
-		F8FCBE651E8D61A300779417 /* ACSBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSBluetooth.h; sourceTree = "<group>"; };
-		F8FCBE661E8D61A300779417 /* AcsBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsBtReader.h; sourceTree = "<group>"; };
-		F8FCBE671E8D61A300779417 /* AudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJack.h; sourceTree = "<group>"; };
-		F8FCBE681E8D61A300779417 /* AudioJackErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJackErrors.h; sourceTree = "<group>"; };
-		F8FCBE691E8D61A300779417 /* BleTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleTags.h; sourceTree = "<group>"; };
-		F8FCBE6A1E8D61A300779417 /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
-		F8FCBE6B1E8D61A300779417 /* FeitianAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianAjReader.h; sourceTree = "<group>"; };
-		F8FCBE6C1E8D61A300779417 /* FeitianBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianBtReader.h; sourceTree = "<group>"; };
-		F8FCBE6D1E8D61A300779417 /* FeitianReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianReader.h; sourceTree = "<group>"; };
-		F8FCBE6E1E8D61A300779417 /* FJStringDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJStringDisplay.h; sourceTree = "<group>"; };
-		F8FCBE6F1E8D61A300779417 /* FloBLEReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloBLEReader.h; sourceTree = "<group>"; };
-		F8FCBE701E8D61A300779417 /* FloNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloNotifications.h; sourceTree = "<group>"; };
-		F8FCBE711E8D61A300779417 /* FloProtocolsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloProtocolsCommon.h; sourceTree = "<group>"; };
-		F8FCBE721E8D61A300779417 /* FLOReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLOReader.h; sourceTree = "<group>"; };
-		F8FCBE731E8D61A300779417 /* FLOTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLOTag.h; sourceTree = "<group>"; };
-		F8FCBE741E8D61A300779417 /* FmAudioJackDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackDevice.h; sourceTree = "<group>"; };
-		F8FCBE751E8D61A300779417 /* FmAudioJackSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackSessionManager.h; sourceTree = "<group>"; };
-		F8FCBE761E8D61A300779417 /* FmBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothDevice.h; sourceTree = "<group>"; };
-		F8FCBE771E8D61A300779417 /* FmBluetoothSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothSessionManager.h; sourceTree = "<group>"; };
-		F8FCBE781E8D61A300779417 /* FmCustomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmCustomTypes.h; sourceTree = "<group>"; };
-		F8FCBE791E8D61A300779417 /* FmDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmDevice.h; sourceTree = "<group>"; };
-		F8FCBE7A1E8D61A300779417 /* FmErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmErrorManager.h; sourceTree = "<group>"; };
-		F8FCBE7B1E8D61A300779417 /* FmNdefManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmNdefManager.h; sourceTree = "<group>"; };
-		F8FCBE7C1E8D61A300779417 /* FmSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmSessionManager.h; sourceTree = "<group>"; };
-		F8FCBE7D1E8D61A300779417 /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
-		F8FCBE7E1E8D61A300779417 /* FTaR530.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTaR530.h; sourceTree = "<group>"; };
-		F8FCBE7F1E8D61A300779417 /* FtBleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtBleReader.h; sourceTree = "<group>"; };
-		F8FCBE801E8D61A300779417 /* FTType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTType.h; sourceTree = "<group>"; };
-		F8FCBE811E8D61A300779417 /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
-		F8FCBE821E8D61A300779417 /* NdefMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefMessage.h; sourceTree = "<group>"; };
-		F8FCBE831E8D61A300779417 /* NdefRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefRecord.h; sourceTree = "<group>"; };
-		F8FCBE841E8D61A300779417 /* NFCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCMessage.h; sourceTree = "<group>"; };
-		F8FCBE851E8D61A300779417 /* NSData+FJStringDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FJStringDisplay.h"; sourceTree = "<group>"; };
-		F8FCBE861E8D61A300779417 /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
-		F8FCBE871E8D61A300779417 /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
-		F8FCBE881E8D61A300779417 /* ReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderManager.h; sourceTree = "<group>"; };
-		F8FCBE891E8D61A300779417 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
-		F8FCBE8A1E8D61A300779417 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
-		F8FCBE8B1E8D61A300779417 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
-		F8FCBE8C1E8D61A300779417 /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
-		F8FCBE8D1E8D61A300779417 /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
-		F8FCBE8E1E8D61A300779417 /* libSDKClasses.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDKClasses.a; sourceTree = "<group>"; };
-		F8FCBE8F1E8D61A300779417 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F8FCBE901E8D61A300779417 /* README_swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_swift.md; sourceTree = "<group>"; };
-		F8FCBE911E8D61A300779417 /* ScanSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScanSound.caf; sourceTree = "<group>"; };
 		F8FCBE991E8D624C00779417 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F8FCBE9B1E8D631D00779417 /* ViewController-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,19 +88,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FCBE941E8D61A400779417 /* libSDKClasses.a in Frameworks */,
 				F8FCBE9A1E8D624C00779417 /* MediaPlayer.framework in Frameworks */,
+				F8FA475E1EA3B65700B47A94 /* libSDKClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8FA47271EA3B65700B47A94 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA47281EA3B65700B47A94 /* FloJackConnected150x150.png */,
+				F8FA47291EA3B65700B47A94 /* FloJackDisconnected150x150.png */,
+				F8FA472A1EA3B65700B47A94 /* include */,
+				F8FA47581EA3B65700B47A94 /* libSDKClasses.a */,
+				F8FA47591EA3B65700B47A94 /* README.md */,
+				F8FA475A1EA3B65700B47A94 /* README_swift.md */,
+				F8FA475B1EA3B65700B47A94 /* ScanSound.caf */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F8FA472A1EA3B65700B47A94 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA472B1EA3B65700B47A94 /* SDKClasses */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F8FA472B1EA3B65700B47A94 /* SDKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F8FA472C1EA3B65700B47A94 /* ABTAcr1255uj1Reader.h */,
+				F8FA472D1EA3B65700B47A94 /* ABTAcr3901us1Reader.h */,
+				F8FA472E1EA3B65700B47A94 /* ABTBluetoothReader.h */,
+				F8FA472F1EA3B65700B47A94 /* ABTBluetoothReaderManager.h */,
+				F8FA47301EA3B65700B47A94 /* ABTError.h */,
+				F8FA47311EA3B65700B47A94 /* ACRAesTrackData.h */,
+				F8FA47321EA3B65700B47A94 /* ACRAudioJackReader.h */,
+				F8FA47331EA3B65700B47A94 /* ACRCRC16.h */,
+				F8FA47341EA3B65700B47A94 /* ACRDukptReceiver.h */,
+				F8FA47351EA3B65700B47A94 /* ACRDukptTrackData.h */,
+				F8FA47361EA3B65700B47A94 /* ACRResult.h */,
+				F8FA47371EA3B65700B47A94 /* ACRStatus.h */,
+				F8FA47381EA3B65700B47A94 /* ACRTrack1Data.h */,
+				F8FA47391EA3B65700B47A94 /* ACRTrack2Data.h */,
+				F8FA473A1EA3B65700B47A94 /* ACRTrackData.h */,
+				F8FA473B1EA3B65700B47A94 /* AcsAjReader.h */,
+				F8FA473C1EA3B65700B47A94 /* AcsBtReader.h */,
+				F8FA473D1EA3B65700B47A94 /* AudioJack.h */,
+				F8FA473E1EA3B65700B47A94 /* AudioJackErrors.h */,
+				F8FA473F1EA3B65700B47A94 /* DUKPT.h */,
+				F8FA47401EA3B65700B47A94 /* FeitianAjReader.h */,
+				F8FA47411EA3B65700B47A94 /* FeitianBtReader.h */,
+				F8FA47421EA3B65700B47A94 /* FJStringDisplay.h */,
+				F8FA47431EA3B65700B47A94 /* FmAudioJackDevice.h */,
+				F8FA47441EA3B65700B47A94 /* FmAudioJackSessionManager.h */,
+				F8FA47451EA3B65700B47A94 /* FmBluetoothDevice.h */,
+				F8FA47461EA3B65700B47A94 /* FmBluetoothSessionManager.h */,
+				F8FA47471EA3B65700B47A94 /* FmCustomTypes.h */,
+				F8FA47481EA3B65700B47A94 /* FmDevice.h */,
+				F8FA47491EA3B65700B47A94 /* FmErrorManager.h */,
+				F8FA474A1EA3B65700B47A94 /* FmNdefManager.h */,
+				F8FA474B1EA3B65700B47A94 /* FmSessionManager.h */,
+				F8FA474C1EA3B65700B47A94 /* ft301u.h */,
+				F8FA474D1EA3B65700B47A94 /* FTaR530.h */,
+				F8FA474E1EA3B65700B47A94 /* FtBleReader.h */,
+				F8FA474F1EA3B65700B47A94 /* FTType.h */,
+				F8FA47501EA3B65700B47A94 /* NdefMessage.h */,
+				F8FA47511EA3B65700B47A94 /* NdefRecord.h */,
+				F8FA47521EA3B65700B47A94 /* ReaderInterface.h */,
+				F8FA47531EA3B65700B47A94 /* Tag.h */,
+				F8FA47541EA3B65700B47A94 /* Utilities.h */,
+				F8FA47551EA3B65700B47A94 /* utils.h */,
+				F8FA47561EA3B65700B47A94 /* winscard.h */,
+				F8FA47571EA3B65700B47A94 /* wintypes.h */,
+			);
+			path = SDKClasses;
+			sourceTree = "<group>";
+		};
 		F8FCBE311E8D609C00779417 = {
 			isa = PBXGroup;
 			children = (
+				F8FA47271EA3B65700B47A94 /* iOS */,
 				F8FCBE9B1E8D631D00779417 /* ViewController-Bridging-Header.h */,
-				F8FCBE4F1E8D61A300779417 /* iOS */,
 				F8FCBE3C1E8D609C00779417 /* flomio */,
 				F8FCBE3B1E8D609C00779417 /* Products */,
 				F8FCBE981E8D624C00779417 /* Frameworks */,
@@ -140,93 +199,6 @@
 				F8FCBE491E8D609C00779417 /* Info.plist */,
 			);
 			path = flomio;
-			sourceTree = "<group>";
-		};
-		F8FCBE4F1E8D61A300779417 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F8FCBE501E8D61A300779417 /* FloJackConnected150x150.png */,
-				F8FCBE511E8D61A300779417 /* FloJackDisconnected150x150.png */,
-				F8FCBE521E8D61A300779417 /* include */,
-				F8FCBE8E1E8D61A300779417 /* libSDKClasses.a */,
-				F8FCBE8F1E8D61A300779417 /* README.md */,
-				F8FCBE901E8D61A300779417 /* README_swift.md */,
-				F8FCBE911E8D61A300779417 /* ScanSound.caf */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		F8FCBE521E8D61A300779417 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				F8FCBE531E8D61A300779417 /* SDKClasses */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		F8FCBE531E8D61A300779417 /* SDKClasses */ = {
-			isa = PBXGroup;
-			children = (
-				F8FCBE541E8D61A300779417 /* ABDHex.h */,
-				F8FCBE551E8D61A300779417 /* ABTAcr1255uj1Reader.h */,
-				F8FCBE561E8D61A300779417 /* ABTAcr3901us1Reader.h */,
-				F8FCBE571E8D61A300779417 /* ABTBluetoothReader.h */,
-				F8FCBE581E8D61A300779417 /* ABTBluetoothReaderManager.h */,
-				F8FCBE591E8D61A300779417 /* ABTError.h */,
-				F8FCBE5A1E8D61A300779417 /* ACRAesTrackData.h */,
-				F8FCBE5B1E8D61A300779417 /* ACRAudioJackReader.h */,
-				F8FCBE5C1E8D61A300779417 /* ACRCRC16.h */,
-				F8FCBE5D1E8D61A300779417 /* ACRDukptReceiver.h */,
-				F8FCBE5E1E8D61A300779417 /* ACRDukptTrackData.h */,
-				F8FCBE5F1E8D61A300779417 /* ACRResult.h */,
-				F8FCBE601E8D61A300779417 /* ACRStatus.h */,
-				F8FCBE611E8D61A300779417 /* ACRTrack1Data.h */,
-				F8FCBE621E8D61A300779417 /* ACRTrack2Data.h */,
-				F8FCBE631E8D61A300779417 /* ACRTrackData.h */,
-				F8FCBE641E8D61A300779417 /* AcsAjReader.h */,
-				F8FCBE651E8D61A300779417 /* ACSBluetooth.h */,
-				F8FCBE661E8D61A300779417 /* AcsBtReader.h */,
-				F8FCBE671E8D61A300779417 /* AudioJack.h */,
-				F8FCBE681E8D61A300779417 /* AudioJackErrors.h */,
-				F8FCBE691E8D61A300779417 /* BleTags.h */,
-				F8FCBE6A1E8D61A300779417 /* DUKPT.h */,
-				F8FCBE6B1E8D61A300779417 /* FeitianAjReader.h */,
-				F8FCBE6C1E8D61A300779417 /* FeitianBtReader.h */,
-				F8FCBE6D1E8D61A300779417 /* FeitianReader.h */,
-				F8FCBE6E1E8D61A300779417 /* FJStringDisplay.h */,
-				F8FCBE6F1E8D61A300779417 /* FloBLEReader.h */,
-				F8FCBE701E8D61A300779417 /* FloNotifications.h */,
-				F8FCBE711E8D61A300779417 /* FloProtocolsCommon.h */,
-				F8FCBE721E8D61A300779417 /* FLOReader.h */,
-				F8FCBE731E8D61A300779417 /* FLOTag.h */,
-				F8FCBE741E8D61A300779417 /* FmAudioJackDevice.h */,
-				F8FCBE751E8D61A300779417 /* FmAudioJackSessionManager.h */,
-				F8FCBE761E8D61A300779417 /* FmBluetoothDevice.h */,
-				F8FCBE771E8D61A300779417 /* FmBluetoothSessionManager.h */,
-				F8FCBE781E8D61A300779417 /* FmCustomTypes.h */,
-				F8FCBE791E8D61A300779417 /* FmDevice.h */,
-				F8FCBE7A1E8D61A300779417 /* FmErrorManager.h */,
-				F8FCBE7B1E8D61A300779417 /* FmNdefManager.h */,
-				F8FCBE7C1E8D61A300779417 /* FmSessionManager.h */,
-				F8FCBE7D1E8D61A300779417 /* ft301u.h */,
-				F8FCBE7E1E8D61A300779417 /* FTaR530.h */,
-				F8FCBE7F1E8D61A300779417 /* FtBleReader.h */,
-				F8FCBE801E8D61A300779417 /* FTType.h */,
-				F8FCBE811E8D61A300779417 /* Logging.h */,
-				F8FCBE821E8D61A300779417 /* NdefMessage.h */,
-				F8FCBE831E8D61A300779417 /* NdefRecord.h */,
-				F8FCBE841E8D61A300779417 /* NFCMessage.h */,
-				F8FCBE851E8D61A300779417 /* NSData+FJStringDisplay.h */,
-				F8FCBE861E8D61A300779417 /* Reader.h */,
-				F8FCBE871E8D61A300779417 /* ReaderInterface.h */,
-				F8FCBE881E8D61A300779417 /* ReaderManager.h */,
-				F8FCBE891E8D61A300779417 /* Tag.h */,
-				F8FCBE8A1E8D61A300779417 /* Utilities.h */,
-				F8FCBE8B1E8D61A300779417 /* utils.h */,
-				F8FCBE8C1E8D61A300779417 /* winscard.h */,
-				F8FCBE8D1E8D61A300779417 /* wintypes.h */,
-			);
-			path = SDKClasses;
 			sourceTree = "<group>";
 		};
 		F8FCBE981E8D624C00779417 /* Frameworks */ = {
@@ -298,11 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8FCBE481E8D609C00779417 /* LaunchScreen.storyboard in Resources */,
-				F8FCBE931E8D61A300779417 /* FloJackDisconnected150x150.png in Resources */,
+				F8FA475D1EA3B65700B47A94 /* FloJackDisconnected150x150.png in Resources */,
 				F8FCBE451E8D609C00779417 /* Assets.xcassets in Resources */,
-				F8FCBE971E8D61A400779417 /* ScanSound.caf in Resources */,
+				F8FA47611EA3B65700B47A94 /* ScanSound.caf in Resources */,
 				F8FCBE431E8D609C00779417 /* Main.storyboard in Resources */,
-				F8FCBE921E8D61A300779417 /* FloJackConnected150x150.png in Resources */,
+				F8FA475C1EA3B65700B47A94 /* FloJackConnected150x150.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8FCBE961E8D61A400779417 /* README_swift.md in Sources */,
-				F8FCBE951E8D61A400779417 /* README.md in Sources */,
+				F8FA47601EA3B65700B47A94 /* README_swift.md in Sources */,
+				F8FA475F1EA3B65700B47A94 /* README.md in Sources */,
 				F8FCBE401E8D609C00779417 /* ViewController.swift in Sources */,
 				F8FCBE3E1E8D609C00779417 /* AppDelegate.swift in Sources */,
 			);
@@ -500,6 +472,7 @@
 				F8FCBE4E1E8D609C00779417 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

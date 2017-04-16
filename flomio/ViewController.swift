@@ -50,8 +50,8 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     
     func didFindTag(withUuid Uuid: String!, fromDevice deviceId: String!, withAtr Atr: String!, withError error: Error!) {
         //writeLog(message: "didFindTag1");
-        theDeviceId = deviceId
-        writeLog(message: "DEVICE ID: \(theDeviceId)");
+        //theDeviceId = deviceId
+        //writeLog(message: "DEVICE ID: \(theDeviceId)");
         DispatchQueue.main.async {
             if let thisUuid = Uuid {
                 self.writeLog(message: "SCANNED - GUID: \(thisUuid)")
@@ -76,6 +76,8 @@ class ViewController: UIViewController, FmSessionManagerDelegate {
     func didUpdateConnectedDevices(_ devices: [Any]!) {
         //writeLog(message: "didUpdateConnectedDevices");
         //The list of connected devices was updated
+        let fmDevices = devices as! [FmDevice]
+        theDeviceId = fmDevices[0].serialNumber
     }
     
     func didChange(_ status: CardStatus, fromDevice device: String!) {
